@@ -659,6 +659,62 @@ p {
 	}
 	/* End About */
 
+	/* Text */
+	.Text{
+		background-color: white;
+	}
+
+	.Text h2{
+		margin-bottom: 3rem;
+		color: white;
+	}
+
+	.Text form{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 3rem;
+		margin: 5rem auto;
+		text-align: center;
+	}
+
+	.Text form .input-box{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.Text form .input-box input,
+	.Text form textarea{
+		width: 100%;
+		padding: 2.5rem;
+		font-size: 1.8rem;
+		color: white;
+		background: white;
+		border-radius: 2rem;
+		border: 2px solid dodgerblue;
+		margin: 1.5rem 0;
+		resize: none;
+
+	}
+
+	.Text form .btn{
+		margin-top: 2rem;
+		padding: 12px 28px;
+		background: dodgerblue;
+		border: none;
+		border-radius: 30px;
+		color: white;
+		font-size: 1rem;
+		font-weight: 600;
+		cursor: pointer;
+		transition: .3s ease;
+
+	}
+
+
+
+
 	/* contact  */
 	#contact .contact {
 		flex-direction: column;
